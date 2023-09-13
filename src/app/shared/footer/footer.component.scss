@@ -1,0 +1,16 @@
+/* footer.component.scss */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000; /* Cor de fundo preto */
+  color: #fff; /* Cor do texto branco */
+  padding: 16px 0; /* Espaçamento interno superior e inferior */
+  text-align: center;
+
+  .footer-content {
+    max-width: 1200px; /* Define a largura máxima do conteúdo do footer */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  }
+}
