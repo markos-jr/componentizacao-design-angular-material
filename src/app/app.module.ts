@@ -13,6 +13,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './shared/card/card.component';
+import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -22,14 +24,16 @@ import { CardComponent } from './shared/card/card.component';
     BannerComponent,
     ContainerComponent,
     HomeComponent,
-    CardComponent
+    CardComponent,
+    CardBuscaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
